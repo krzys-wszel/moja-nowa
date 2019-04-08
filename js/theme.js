@@ -78,7 +78,7 @@
 			$('.testi_slider').owlCarousel({
 				loop: true,
 				margin: 30,
-				items: 2,
+				items: 1,
 				autoplay: true,
 				smartSpeed: 2500,
 				dots: true,
@@ -88,7 +88,7 @@
 						items: 1
 					},
 					991: {
-						items: 2
+						items: 1
 					}
 				}
 			});

@@ -194,7 +194,8 @@ button:focus {
   z-index: 9999;
   background: #ffffff; }
   .header_area .menu_nav {
-    width: 100%; }
+    width: 100%;
+text-align: -webkit-center;}
   .header_area .navbar {
     background: transparent;
     padding: 0px;
@@ -321,7 +322,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/3.jpg) no-repeat top center;
+  background: url(../business-code-coding-943096.jpg) no-repeat top center;
   background-position: center;
   background-size: cover;
 height: 100vh;}
@@ -2425,16 +2426,16 @@ h6 {
     margin-top: 20px; }
   .about_area .about_img {
     position: relative;
-    right: 250px; }
+     }
     @media (max-width: 1480px) {
       .about_area .about_img {
         right: 0; }
         .about_area .about_img img {
           max-width: 100%;
           height: auto; } }
-    @media (max-width: 991px) {
+    /*@media (max-width: 991px) {
       .about_area .about_img {
-        display: none; } }
+        display: none; } }*/
 
 /* End About Us Area css
 ============================================================================================ */
@@ -2516,12 +2517,12 @@ h6 {
   .single-brand-item:hover {
     border: 1px solid transparent;
     box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15); }
-    .single-brand-item:hover img {
+    /*.single-brand-item:hover img {
       filter: brightness(0%);
       -o-filter: brightness(0%);
       -ms-filter: brightness(0%);
       -moz-filter: brightness(0%);
-      -webkit-filter: brightness(0%); }
+      -webkit-filter: brightness(0%); }*/
 
 .client-info {
   padding: 25px 30px;
@@ -2734,8 +2735,8 @@ h6 {
   @media (max-width: 991px) {
     .testimonial_area .owl-carousel .owl-dots {
       display: none !important; } }
-.testimonial_area .owl-carousel .owl-item img {
-  width: auto !important; }
+/*.testimonial_area .owl-carousel .owl-item img {
+  width: auto !important; }*/
 
 .testi_item {
   padding: 50px 55px;
@@ -2952,7 +2953,7 @@ h6 {
 
   .header_area .navbar-collapse {
     max-height: 340px;
-    overflow-y: scroll; }
+    /*overflow-y: scroll;*/ }
 
   .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
     padding: 0px 15px; }
@@ -3229,12 +3230,12 @@ h6 {
     content: none; }
 
 .footer_area {
-  padding: 120px 0;
+  padding:  0px 0;
   position: relative; }
   .footer_area:before {
     content: '';
     position: absolute;
-    top: -200px;
+    top: -70px;
     left: 0px;
     right: 0px;
     bottom: 0px;
